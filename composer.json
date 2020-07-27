@@ -1,0 +1,21 @@
+{
+    "name": "gangan/hello",
+    "description": "这是我的hello composer",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ligan",
+            "email": "18151768346@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tools\\": "src/Tools"
+        }
+    }
+}
