@@ -1,6 +1,6 @@
 {
     "name": "gangan/hello",
-    "description": "这是我的hello composer",
+    "description": "Helper工具类",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Tools\\": "src/Tools"
+            "Helper\\": "src/Helper"
         }
     }
 }
